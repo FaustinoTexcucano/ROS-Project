@@ -1,0 +1,8 @@
+prefix=/home/faustex/catkin_ws/devel
+
+Name: controller_manager_tests
+Description: Description of controller_manager_tests
+Version: 0.13.3
+Cflags: -I/home/faustex/catkin_ws/src/ros_control/controller_manager_tests/include
+Libs: -L/home/faustex/catkin_ws/devel/lib -lcontroller_manager_tests
+Requires: controller_manager controller_interface

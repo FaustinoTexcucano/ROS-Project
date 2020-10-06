@@ -1,0 +1,8 @@
+prefix=/home/faustex/catkin_ws/install
+
+Name: principiante_tutoriales
+Description: Description of principiante_tutoriales
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/faustex/catkin_ws/install/lib 
+Requires: 

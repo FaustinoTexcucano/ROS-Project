@@ -1,0 +1,8 @@
+prefix=/home/faustex/catkin_ws/install
+
+Name: realtime_tools
+Description: Description of realtime_tools
+Version: 1.11.1
+Cflags: -I/home/faustex/catkin_ws/install/include
+Libs: -L/home/faustex/catkin_ws/install/lib -lrealtime_tools
+Requires: roscpp rospy

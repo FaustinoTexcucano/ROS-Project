@@ -1,0 +1,8 @@
+prefix=/home/faustex/catkin_ws/install
+
+Name: forward_command_controller
+Description: Description of forward_command_controller
+Version: 0.13.5
+Cflags: -I/home/faustex/catkin_ws/install/include
+Libs: -L/home/faustex/catkin_ws/install/lib 
+Requires: controller_interface hardware_interface std_msgs realtime_tools

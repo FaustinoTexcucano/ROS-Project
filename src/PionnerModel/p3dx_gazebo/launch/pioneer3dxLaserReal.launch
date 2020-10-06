@@ -1,0 +1,27 @@
+<launch>
+<!--    rosaria-->
+    <arg name="use_robot" default="false" />
+<!--    bug_server-->
+    <arg name="use_bug" default="false" />
+<!--    urg_node arg-->
+    <arg name="laser_frame" default="base_link" />
+<!--    camera arg-->
+    <arg name="use_camera" default="false" />
+    <arg name="video_device" default="/dev/video1" />
+<!--    gmmaping arg-->
+    <arg name="use_gmapping" default="false" />
+    <arg name="scan_topic"  default="scan" />
+    <arg name="base_frame"  default="base_link"/>
+    <arg name="odom_frame"  default="odom"/>
+
+    <!--<node pkg="p3dx_gazebo" type="RobotDriver" name="RobotDriver" output="screen">
+    </node>-->
+
+    <group if="$(arg use_robot)">
+        <node pkg="rosaria" type="RosAria" name="RosAria" output="screen">
+        </node>
+        <node pkg="urg_node" type="urg_node" name="hokuyo_laser" output="screen">
+            <param name="frame_id" value="$(arg laser_frame)" />
+        </node>
+    </group>
+</launch>

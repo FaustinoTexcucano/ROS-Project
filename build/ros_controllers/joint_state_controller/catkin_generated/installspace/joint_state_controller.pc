@@ -1,0 +1,8 @@
+prefix=/home/faustex/catkin_ws/install
+
+Name: joint_state_controller
+Description: Description of joint_state_controller
+Version: 0.13.5
+Cflags: -I/home/faustex/catkin_ws/install/include
+Libs: -L/home/faustex/catkin_ws/install/lib -ljoint_state_controller
+Requires: realtime_tools roscpp hardware_interface pluginlib controller_interface sensor_msgs

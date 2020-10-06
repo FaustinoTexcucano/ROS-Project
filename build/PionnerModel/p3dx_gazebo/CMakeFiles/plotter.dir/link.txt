@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC   -g   -shared -Wl,-soname,libplotter.so -o /home/faustex/catkin_ws/devel/lib/libplotter.so CMakeFiles/plotter.dir/src/plotter.cpp.o 

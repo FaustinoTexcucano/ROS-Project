@@ -1,0 +1,8 @@
+prefix=/home/faustex/catkin_ws/install
+
+Name: imu_sensor_controller
+Description: Description of imu_sensor_controller
+Version: 0.13.5
+Cflags: -I/home/faustex/catkin_ws/install/include
+Libs: -L/home/faustex/catkin_ws/install/lib -limu_sensor_controller
+Requires: controller_interface hardware_interface pluginlib realtime_tools roscpp sensor_msgs

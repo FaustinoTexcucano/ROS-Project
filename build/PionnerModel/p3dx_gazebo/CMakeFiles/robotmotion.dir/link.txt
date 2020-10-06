@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC   -g   -shared -Wl,-soname,librobotmotion.so -o /home/faustex/catkin_ws/devel/lib/librobotmotion.so CMakeFiles/robotmotion.dir/src/robotmotion.cpp.o 

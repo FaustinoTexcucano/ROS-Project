@@ -1,0 +1,8 @@
+prefix=/home/faustex/catkin_ws/install
+
+Name: velocity_controllers
+Description: Description of velocity_controllers
+Version: 0.13.5
+Cflags: -I/home/faustex/catkin_ws/install/include
+Libs: -L/home/faustex/catkin_ws/install/lib -lvelocity_controllers
+Requires: angles control_msgs control_toolbox controller_interface forward_command_controller realtime_tools urdf
